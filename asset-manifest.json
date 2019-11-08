@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/qim-quizz/static/css/main.80db3eef.chunk.css",
+    "main.js": "/qim-quizz/static/js/main.046df4e5.chunk.js",
+    "main.js.map": "/qim-quizz/static/js/main.046df4e5.chunk.js.map",
+    "runtime-main.js": "/qim-quizz/static/js/runtime-main.ce8d6f07.js",
+    "runtime-main.js.map": "/qim-quizz/static/js/runtime-main.ce8d6f07.js.map",
+    "static/js/2.cb33c02c.chunk.js": "/qim-quizz/static/js/2.cb33c02c.chunk.js",
+    "static/js/2.cb33c02c.chunk.js.map": "/qim-quizz/static/js/2.cb33c02c.chunk.js.map",
+    "index.html": "/qim-quizz/index.html",
+    "precache-manifest.f6fd535115e8cbfeac4a96888e7b9d19.js": "/qim-quizz/precache-manifest.f6fd535115e8cbfeac4a96888e7b9d19.js",
+    "service-worker.js": "/qim-quizz/service-worker.js",
+    "static/css/main.80db3eef.chunk.css.map": "/qim-quizz/static/css/main.80db3eef.chunk.css.map",
+    "static/media/index.css": "/qim-quizz/static/media/icon-check.4cffa739.svg",
+    "static/media/logo.svg": "/qim-quizz/static/media/logo.ee9e8b1b.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ce8d6f07.js",
+    "static/js/2.cb33c02c.chunk.js",
+    "static/css/main.80db3eef.chunk.css",
+    "static/js/main.046df4e5.chunk.js"
+  ]
+}
