@@ -118,7 +118,7 @@ var quizQuestions = [
     question: "Who is considered as the “father” of artificial intelligence?",
     answers: [
       {
-        type: "correct",
+        type: "incorrect",
         content: "Donald Trump"
       },
       {
@@ -130,7 +130,7 @@ var quizQuestions = [
         content: "Vladimir Poutine"
       },
       {
-        type: "incorrect",
+        type: "correct",
         content: "Alan Turing"
       }
     ]

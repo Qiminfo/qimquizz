@@ -39,9 +39,6 @@ body {
 }
 
 /* Result Component */
-.result {
-  padding: 1.5rem 2.5rem;
-}
 
 /* Quiz Component */
 .answerOptions {
@@ -53,12 +50,13 @@ body {
 /* QuestionCount Component */
 .questionCount {
   padding: 1.5rem 2.5rem 0;
-  font-size: 14px;
+  font-size: 1em;
 }
 
 /* Question Component */
 .question {
   margin: 0;
+  min-height: 96px;
   padding: 0.5rem 2.5rem 1.5rem 2.5rem;
 }
 
@@ -89,13 +87,13 @@ body {
   width: 100%;
   margin: 0;
   padding: 1.5rem 2.5rem 1.5rem 5rem;
-  font-size: 16px;
+  font-size: 1.5em;
   line-height: 1.5;
 }
 
 .radioCustomButton ~ .radioCustomLabel:before {
   position: absolute;
-  top: 20px;
+  top: 24px;
   left: 38px;
   width: 28px;
   height: 28px;
