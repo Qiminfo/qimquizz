@@ -20,7 +20,7 @@ class App extends Component {
             answer: '',
             answersCount: {},
             result: '',
-            questionsCount: 1,
+            questionsCount: 10,
             quizzTitle: 'Qim Quizz',
             displayQuizz: false
         };
