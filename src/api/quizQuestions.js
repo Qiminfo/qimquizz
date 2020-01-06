@@ -1,6 +1,6 @@
 var quizQuestions = [
   {
-    question: "What decade did formal research in AI begin ?",
+    question: "In which decade did AI formal research begin?",
     answers: [
       {
         type: "correct",
@@ -8,7 +8,7 @@ var quizQuestions = [
       },
       {
         type: "incorrect",
-        content: "1960s"
+        content: "1930s"
       },
       {
         type: "incorrect",
@@ -23,7 +23,7 @@ var quizQuestions = [
 
   {
     question:
-      "The area of AI that investigates on methods of facilitating communication between people and computer is :",
+      "The area of AI which investigates methods of facilitating the textual interactions between people and computers is:",
     answers: [
       {
         type: "incorrect",
@@ -46,7 +46,7 @@ var quizQuestions = [
 
   {
     question:
-      "The practice of using algorithms to parse data, learn from it, and then make a determination or prediction about something is :",
+      "The practice of using algorithms to parse data, learn from it, and then make a determination or prediction about something is:",
     answers: [
       {
         type: "correct",
@@ -69,7 +69,7 @@ var quizQuestions = [
 
 
   {
-    question: "Which of the following methods is NOT a learning method ?",
+    question: "Which of the following methods is NOT a learning method?",
     answers: [
       {
         type: "incorrect",
@@ -95,7 +95,7 @@ var quizQuestions = [
     answers: [
       {
         type: "incorrect",
-        content: "Boa"
+        content: "C++/C"
       },
       {
         type: "correct",
@@ -103,11 +103,11 @@ var quizQuestions = [
       },
       {
         type: "incorrect",
-        content: "Viper"
+        content: "PHP"
       },
       {
         type: "incorrect",
-        content: "Cobra"
+        content: "Java"
       }
     ]
   },
@@ -115,7 +115,7 @@ var quizQuestions = [
 
 
   {
-    question: "Who is considered as the “father” of artificial intelligence?",
+    question: "Who is considered as the father of artificial intelligence?",
     answers: [
       {
         type: "incorrect",
@@ -127,7 +127,7 @@ var quizQuestions = [
       },
       {
         type: "incorrect",
-        content: "Vladimir Poutine"
+        content: "Vladimir Putin"
       },
       {
         type: "correct",
@@ -137,29 +137,7 @@ var quizQuestions = [
   },
 
   {
-    question: "What is the goal of artificial intelligence?",
-    answers: [
-      {
-        type: "incorrect",
-        content: "To solve real-world problems"
-      },
-      {
-        type: "incorrect",
-        content: "To solve artificial problems"
-      },
-      {
-        type: "correct",
-        content: "To explain various sorts of intelligence"
-      },
-      {
-        type: "incorrect",
-        content: "To extract scientific causes"
-      }
-    ]
-  },
-
-  {
-    question: "How does a decision tree make a decision ?",
+    question: "How does a decision tree make a decision?",
     answers: [
       {
         type: "incorrect",
@@ -181,7 +159,7 @@ var quizQuestions = [
   },
 
   {
-    question: "What takes an object described by a set of attributes as input?",
+    question: "Which of the following takes an object described by a set of attributes as an input?",
     answers: [
       {
         type: "incorrect",
@@ -226,7 +204,7 @@ var quizQuestions = [
 
   {
     question:
-      "Software designed to simulate a conversation between a computer and a human enduser is called a :",
+      "A software designed to simulate a conversation between a computer and a human end user is called:",
     answers: [
       {
         type: "correct",
@@ -249,7 +227,7 @@ var quizQuestions = [
 
   {
     question:
-      "While evaluating a classifier’s performance, what do we mean by the ‘sensitivity’ of our model?",
+      "While evaluating the performance of a classifier, what do we mean by the sensitivity of our model?",
     answers: [
       {
         type: "incorrect",
@@ -276,7 +254,7 @@ var quizQuestions = [
     answers: [
       {
         type: "correct",
-        content: "As number of hidden layers increase, model capacity increases"
+        content: "As the number of hidden layers increase, model capacity increases"
       },
       {
         type: "incorrect",
@@ -284,7 +262,7 @@ var quizQuestions = [
       },
       {
         type: "incorrect",
-        content: "As learning rate increases, model capacity increases"
+        content: "As the learning rate increases, model capacity increases"
       },
       {
         type: "incorrect",
@@ -317,7 +295,7 @@ var quizQuestions = [
   },
 
   {
-    question: "In unsupervised learning :",
+    question: "In unsupervised learning:",
     answers: [
       {
         type: "incorrect",
@@ -385,7 +363,7 @@ var quizQuestions = [
 
   {
     question:
-      "In which of the following learning paradigm the agent receives rewards and punishements based on the outcome?",
+      "In which of the following learning paradigms the model receives rewards and punishements based on the outcome?",
     answers: [
       {
         type: "incorrect",
@@ -407,7 +385,7 @@ var quizQuestions = [
   },
 
   {
-    question: "Decision trees are appropriate for the problems where : ",
+    question: "Decision trees are appropriate for the problems where: ",
     answers: [
       {
         type: "incorrect",
@@ -419,7 +397,7 @@ var quizQuestions = [
       },
       {
         type: "incorrect",
-        content: "The output is ordinal categorical "
+        content: "The output is ordinal categorical"
       },
       {
         type: "correct",
@@ -429,11 +407,11 @@ var quizQuestions = [
   },
 
   {
-    question: "How can back propagation be defined ? ",
+    question: "How can back propagation be defined? ",
     answers: [
       {
         type: "incorrect",
-        content: "Another name given to the curvy function "
+        content: "Another name given to the polynomial function "
       },
       {
         type: "incorrect",
@@ -474,50 +452,6 @@ var quizQuestions = [
     ]
   },
 
-  {
-    question:
-      "What is the most efficient way of handling missing or corrupted categorical data in terms of information loss reduction?",
-    answers: [
-      {
-        type: "incorrect",
-        content: "Drop missing rows or columns"
-      },
-      {
-        type: "incorrect",
-        content: "Replace missing values with mean, median, and mode"
-      },
-      {
-        type: "correct",
-        content: "Assign a unique category to missing values"
-      },
-      {
-        type: "incorrect",
-        content: "All of mentioned"
-      }
-    ]
-  },
-
-  {
-    question: "Which of the following is enabled by the kernel trick?",
-    answers: [
-      {
-        type: "incorrect",
-        content: "Regularization"
-      },
-      {
-        type: "incorrect",
-        content: "Non-linear flexibility"
-      },
-      {
-        type: "incorrect",
-        content: "Variance of the estimator reduction"
-      },
-      {
-        type: "correct",
-        content: "All of mentioned"
-      }
-    ]
-  },
 
   {
     question:
@@ -544,7 +478,7 @@ var quizQuestions = [
 
   {
     question:
-      "What could be the reason for the loss to not decrease in the first few epochs while training a neural network?",
+      "What could be the reason for the loss not decrease in the first few epochs while training a neural network?",
     answers: [
       {
         type: "incorrect",
@@ -565,32 +499,10 @@ var quizQuestions = [
     ]
   },
 
-  {
-    question:
-      "What regularization process(es) enable(s) deep neural architectures training?",
-    answers: [
-      {
-        type: "incorrect",
-        content: "Batch normalization"
-      },
-      {
-        type: "incorrect",
-        content: "ELU activation functions"
-      },
-      {
-        type: "incorrect",
-        content: "Fully convolutionnal layers "
-      },
-      {
-        type: "correct",
-        content: "All of mentioned"
-      }
-    ]
-  },
 
   {
     question:
-      "Computational learning theory analyzes the sample complexity and computational complexity of :",
+      "Computational learning theory analyzes the sample complexity and computational complexity of:",
     answers: [
       {
         type: "incorrect",
@@ -613,7 +525,7 @@ var quizQuestions = [
 
   {
     question:
-      "If a decision process outputs positive evidence to reject an hypothesis, but in reality the hypothesis holds, it is a: ",
+      "If the output of a process rejects a hypothesis, but in reality the hypothesis holds, it is a: ",
     answers: [
       {
         type: "incorrect",
@@ -647,7 +559,7 @@ var quizQuestions = [
       },
       {
         type: "correct",
-        content: "Unsupervised learning "
+        content: "Unsupervised learning"
       },
       {
         type: "incorrect",
@@ -703,7 +615,7 @@ var quizQuestions = [
   },
 
   {
-    question: "What name(s) can be given to some decision tree nodes?",
+    question: "What other name(s) can be given to some decision tree nodes?",
     answers: [
       {
         type: "incorrect",
@@ -747,7 +659,7 @@ var quizQuestions = [
   },
 
   {
-    question: "AI has a conscience ",
+    question: "Does AI have conscience?",
     answers: [
       {
         type: "incorrect",
@@ -790,13 +702,102 @@ var quizQuestions = [
     ]
   },
 
+    {
+    question: "Which of the following is an application of natural language processing?",
+    answers: [
+      {
+        type: "incorrect",
+        content: "Voice assistants like Amazon Alexa and Siri"
+      },
+      {
+        type: "incorrect",
+        content: "Chatbots"
+      },
+      {
+        type: "incorrect",
+        content: "Sentiment analysis"
+      },
+      {
+        type: "correct",
+        content: "All of the above"
+      }
+    ]
+  },
+
+      {
+    question: "Which of the following is NOT an application of computer vision?",
+    answers: [
+      {
+        type: "incorrect",
+        content: "Medical imaging"
+      },
+      {
+        type: "incorrect",
+        content: "Autonomous vehicles"
+      },
+      {
+        type: "incorrect",
+        content: "Face recognition"
+      },
+      {
+        type: "correct",
+        content: "Sentiment analysis"
+      }
+    ]
+  },
+
+
+      {
+    question: "Which of the following is an example of feature extraction?",
+    answers: [
+      {
+        type: "incorrect",
+        content: "Removing stop words in a sentence"
+      },
+      {
+        type: "incorrect",
+        content: "Constructing a bag of word vectors from an email"
+      },
+      {
+        type: "incorrect",
+        content: "Applying PCA projects to large, high-dimensional data"
+      },
+      {
+        type: "correct",
+        content: "All of mentioned"
+      }
+    ]
+  },
+
+      {
+    question: "Which of the following is a necessary characteristic of test datasets?",
+    answers: [
+      {
+        type: "incorrect",
+        content: "Representative of the training data as a whole"
+      },
+      {
+        type: "incorrect",
+        content: "Large enough to yield meaningful results"
+      },
+      {
+        type: "incorrect",
+        content: "None of mentioned"
+      },
+      {
+        type: "correct",
+        content: "All of mentioned"
+      }
+    ]
+  },
+
   {
-    question: "Why is Weight Initialization important in Neural Networks? ",
+    question: "Why is Weight Initialization important in Neural Networks?",
     answers: [
       {
         type: "correct",
         content:
-          "To prevent gradient from vanishing during the course of a backward pass "
+          "To prevent gradient from vanishing during the course of a backward pass"
       },
       {
         type: "incorrect",
@@ -804,11 +805,11 @@ var quizQuestions = [
       },
       {
         type: "incorrect",
-        content: "To use memory more efficiently "
+        content: "To use memory more efficiently"
       },
       {
         type: "incorrect",
-        content: "For regularization purposes "
+        content: "For regularization purposes"
       }
     ]
   }
