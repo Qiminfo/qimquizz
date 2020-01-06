@@ -2,6 +2,9 @@
 .App {
   height:100vh;
   background: #0071ce;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .App-logo {
   animation: spin infinite 20s linear;

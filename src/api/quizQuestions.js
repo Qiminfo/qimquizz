@@ -127,7 +127,29 @@ var quizQuestions = [
       },
       {
         type: "incorrect",
+<<<<<<< HEAD
         content: "Vladimir Putin"
+=======
+        content: "Vladimir Poutine"
+      },
+      {
+        type: "correct",
+        content: "Alan Turing"
+      }
+    ]
+  },
+
+  {
+    question: "What is the goal of artificial intelligence?",
+    answers: [
+      {
+        type: "incorrect",
+        content: "To solve real-world problems"
+      },
+      {
+        type: "incorrect",
+        content: "To solve artificial problems"
+>>>>>>> 447f7117d13370a368a8cad0977e5867010d165d
       },
       {
         type: "correct",

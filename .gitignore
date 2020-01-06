@@ -1,2 +1,7 @@
 node_modules/
 build/
+<<<<<<< HEAD
+=======
+.idea/
+
+>>>>>>> 447f7117d13370a368a8cad0977e5867010d165d

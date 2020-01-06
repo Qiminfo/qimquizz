@@ -74,7 +74,7 @@ class Form extends Component {
     const keys = Object.keys(this.props.answersCount);
     const correct = this.props.answersCount.correct;
     const incorrect = keys.filter(k => k !== "correct").length;
-    var pieData = {
+    const pieData = {
       labels: ["Correct", "Incorrect"],
       datasets: [
         {
@@ -83,35 +83,97 @@ class Form extends Component {
         }
       ]
     };
-    var inputStyle = {
-      width: '100%',
+    const inputStyle = {
       padding: '12px 20px',
-      margin: '8px 0',
+      margin: '14px',
       boxSizing: 'border-box',
-      fontSize: '16px',
+      fontSize: '1em',
       fontFamily: 'PT Sans, sans-serif',
       borderRadius:'4px'
     };
-    var formStyle= {
+    const formStyle= {
       display: 'flex',
       justifyContent: 'center',
       alignItems: 'center',
       flexDirection: 'column',
-    }
+      color: 'white'
+    };
     return (
       <form style={formStyle} onSubmit={this.formPreventDefault}>
-        <h2>Congratulations, you have won the quizz !</h2>
-        <Doughnut
-          data={pieData}
-          options={{
-            responsive: true,
-            maintainAspectRatio: true
-          }}
-        />
-        <h3>
-          Share your score on social media !
-        </h3>
-        <div style={{display:'flex'}}>
+        <h1>Congratulations, you have won the quizz</h1>
+          <div>
+              <Doughnut
+                  data={pieData}
+                  options={{
+                      legend: {
+                          display: true,
+                          position: 'left',
+                          labels: {
+                              fontColor: 'white',
+                              fontFamily: '\'PT Sans\', sans-serif',
+                              fontSize: 24,
+                          }
+                      },
+                      responsive: true,
+                      maintainAspectRatio: true
+                  }}
+              />
+          </div>
+
+          <h1>
+              Participate to the draw and win an iPad !
+          </h1>
+          <div style={{width: '100%', minHeight: '168px'}}>
+
+              <div
+                  style={{
+                      display: 'flex',
+                      justifyContent: 'center',
+                      alignItems: 'center',
+                      width: '100%',
+                      fontSize:'1.5em'
+                  }}
+                  className={`form-group ${this.errorClass(
+                      this.state.formErrors.email
+                  )}`}
+              >
+                  <input
+                      type="Type your email here..."
+                      required
+                      className="form-control"
+                      name="email"
+                      placeholder="Email"
+                      value={this.state.email}
+                      onChange={this.handleUserInput}
+                      style={inputStyle}
+                  />
+                  <button
+                      style={{
+                          background: '#CFDE00',
+                          border: 'none',
+                          color: '#0071ce',
+                          padding: '15px 32px',
+                          textAlign: 'center',
+                          textDecoration: 'none',
+                          display: 'inline-block',
+                          fontSize: '1em',
+                          fontFamily: 'PT Sans, sans-serif',
+                          borderRadius:'4px',
+                          height: '60px'
+                      }}
+                      className="btn btn-primary"
+                      disabled={!this.state.formValid}
+                      onClick={this.storeWinnerEmail.bind(this)}
+                  >
+                      Submit
+                  </button>
+              </div>
+              <FormErrors formErrors={this.state.formErrors} />
+          </div>
+          <h1>
+          Share your score on social media
+        </h1>
+        <div style={{display:'flex', width: '20%', justifyContent: 'space-between'}}>
           <TwitterShareButton url='https://twitter.com/Qiminfo' hashtags={["AMLD2020","QimQuizz","Qiminfo"]}>
             <TwitterIcon size={64} round={true} />
           </TwitterShareButton>
@@ -119,48 +181,6 @@ class Form extends Component {
             <LinkedinIcon size={64} round={true} />
           </LinkedinShareButton>
         </div>
-        <h3>
-          Please type your email in order to partifcipate to the draw and win an iPad
-        </h3>
-        <div
-          className={`form-group ${this.errorClass(
-            this.state.formErrors.email
-          )}`}
-        >
-          <label htmlFor="email">Email address</label>
-          <input
-            type="email"
-            required
-            className="form-control"
-            name="email"
-            placeholder="Email"
-            value={this.state.email}
-            onChange={this.handleUserInput}
-            style={inputStyle}
-          />
-        </div>
-        <div className="panel panel-default">
-          <FormErrors formErrors={this.state.formErrors} />
-        </div>
-        <button
-          style={{  
-            background: '#0071ce',
-            border: 'none',
-            color: 'white',
-            padding: '15px 32px',
-            textAlign: 'center',
-            textDecoration: 'none',
-            display: 'inline-block',
-            fontSize: '16px',
-            fontFamily: 'PT Sans, sans-serif',
-            borderRadius:'4px'
-          }}
-          className="btn btn-primary"
-          disabled={!this.state.formValid}
-          onClick={this.storeWinnerEmail.bind(this)}
-        >
-          Submit
-        </button>
       </form>
     );
   }
